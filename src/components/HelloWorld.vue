@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'HelloWorld Amplify Demo',
   props: {
     msg: String
   }
