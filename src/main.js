@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import { authenticator, amplifySignOut } from '@aws-amplify/ui-vue'
+import '@aws-amplify/ui-vue'
 
 import Amplify from 'aws-amplify';
 import aws_exports from './aws-exports';
@@ -12,9 +12,6 @@ applyPolyfills().then(() => {
 
 
 Vue.config.productionTip = false
-
-Vue.component('amplify-authenticator', authenticator)
-Vue.component('amplify-sign-out', amplifySignOut)
 
 new Vue({
   render: h => h(App),
