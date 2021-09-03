@@ -38,7 +38,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-vueawsdemo-dev-113153-deployment/amplify-cfn-templates/auth/vueawsdemo486e49a3-cloudformation-template.yml",
         "logicalId": "authvueawsdemo486e49a3"
       },
-      "lastPushTimeStamp": "2021-09-03T02:56:45.412Z",
+      "lastPushTimeStamp": "2021-09-03T05:12:54.604Z",
       "output": {
         "UserPoolId": "ap-northeast-2_Fceq6stLR",
         "AppClientIDWeb": "4ajjdp6h4aihdinao3js7lmeio",
