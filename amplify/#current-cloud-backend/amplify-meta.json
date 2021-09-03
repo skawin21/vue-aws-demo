@@ -11,5 +11,44 @@
       "StackId": "arn:aws:cloudformation:ap-northeast-2:975970341755:stack/amplify-vueawsdemo-dev-113153/1a74c750-0c5f-11ec-8327-0a85c6bad41a",
       "AmplifyAppId": "d2v9g0fuktklnx"
     }
+  },
+  "auth": {
+    "vueawsdemo486e49a3": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "loginMechanisms": [
+          "PREFERRED_USERNAME"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-vueawsdemo-dev-113153-deployment/amplify-cfn-templates/auth/vueawsdemo486e49a3-cloudformation-template.yml",
+        "logicalId": "authvueawsdemo486e49a3"
+      },
+      "lastPushTimeStamp": "2021-09-03T02:56:45.412Z",
+      "output": {
+        "UserPoolId": "ap-northeast-2_Fceq6stLR",
+        "AppClientIDWeb": "4ajjdp6h4aihdinao3js7lmeio",
+        "AppClientID": "4kie4fn889mcmth87u1vv1bbkr",
+        "IdentityPoolId": "ap-northeast-2:bba0427e-6835-4b30-9c84-0d15caa62fc4",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-northeast-2:975970341755:userpool/ap-northeast-2_Fceq6stLR",
+        "IdentityPoolName": "vueawsdemo486e49a3_identitypool_486e49a3__dev",
+        "UserPoolName": "vueawsdemo486e49a3_userpool_486e49a3"
+      },
+      "lastPushDirHash": "GQMye3gI/8br5sjs7JQo7rrWA+I="
+    }
   }
 }

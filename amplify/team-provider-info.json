@@ -10,6 +10,11 @@
       "StackName": "amplify-vueawsdemo-dev-113153",
       "StackId": "arn:aws:cloudformation:ap-northeast-2:975970341755:stack/amplify-vueawsdemo-dev-113153/1a74c750-0c5f-11ec-8327-0a85c6bad41a",
       "AmplifyAppId": "d2v9g0fuktklnx"
+    },
+    "categories": {
+      "auth": {
+        "vueawsdemo486e49a3": {}
+      }
     }
   }
 }

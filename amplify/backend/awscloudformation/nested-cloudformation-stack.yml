@@ -68,15 +68,15 @@
         }
       }
     },
-    "authvueawsdemo529ead0a": {
+    "authvueawsdemo486e49a3": {
       "Type": "AWS::CloudFormation::Stack",
       "Properties": {
-        "TemplateURL": "https://s3.amazonaws.com/amplify-amplify488ed38651724-staging-74816-deployment/amplify-cfn-templates/auth/vueawsdemo529ead0a-cloudformation-template.yml",
+        "TemplateURL": "https://s3.amazonaws.com/amplify-vueawsdemo-dev-113153-deployment/amplify-cfn-templates/auth/vueawsdemo486e49a3-cloudformation-template.yml",
         "Parameters": {
-          "identityPoolName": "vueawsdemo529ead0a_identitypool_529ead0a",
+          "identityPoolName": "vueawsdemo486e49a3_identitypool_486e49a3",
           "allowUnauthenticatedIdentities": false,
-          "resourceNameTruncated": "vueaws529ead0a",
-          "userPoolName": "vueawsdemo529ead0a_userpool_529ead0a",
+          "resourceNameTruncated": "vueaws486e49a3",
+          "userPoolName": "vueawsdemo486e49a3_userpool_486e49a3",
           "autoVerifiedAttributes": "email",
           "mfaConfiguration": "OFF",
           "mfaTypes": "SMS Text Message",
@@ -88,15 +88,15 @@
           "passwordPolicyMinLength": 8,
           "passwordPolicyCharacters": "",
           "requiredAttributes": "email",
-          "aliasAttributes": "email",
+          "aliasAttributes": "preferred_username",
           "userpoolClientGenerateSecret": false,
           "userpoolClientRefreshTokenValidity": 30,
           "userpoolClientWriteAttributes": "email",
           "userpoolClientReadAttributes": "email",
-          "userpoolClientLambdaRole": "vueaws529ead0a_userpoolclient_lambda_role",
+          "userpoolClientLambdaRole": "vueaws486e49a3_userpoolclient_lambda_role",
           "userpoolClientSetAttributes": false,
-          "sharedId": "529ead0a",
-          "resourceName": "vueawsdemo529ead0a",
+          "sharedId": "486e49a3",
+          "resourceName": "vueawsdemo486e49a3",
           "authSelections": "identityPoolAndUserPool",
           "authRoleArn": {
             "Fn::GetAtt": [
@@ -115,7 +115,7 @@
           "serviceName": "Cognito",
           "usernameCaseSensitive": false,
           "dependsOn": "",
-          "env": "staging"
+          "env": "dev"
         }
       }
     },
@@ -123,7 +123,7 @@
       "DependsOn": [
         "AuthRole",
         "UnauthRole",
-        "authvueawsdemo529ead0a"
+        "authvueawsdemo486e49a3"
       ],
       "Type": "AWS::Lambda::Function",
       "Properties": {
@@ -206,7 +206,7 @@
         },
         "idpId": {
           "Fn::GetAtt": [
-            "authvueawsdemo529ead0a",
+            "authvueawsdemo486e49a3",
             "Outputs.IdentityPoolId"
           ]
         },

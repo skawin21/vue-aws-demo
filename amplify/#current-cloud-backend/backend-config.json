@@ -1,13 +1,13 @@
 {
   "auth": {
-    "vueawsdemo529ead0a": {
+    "vueawsdemo486e49a3": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
       "customAuth": false,
       "frontendAuthConfig": {
         "loginMechanisms": [
-          "EMAIL"
+          "PREFERRED_USERNAME"
         ],
         "signupAttributes": [
           "EMAIL"
