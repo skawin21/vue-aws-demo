@@ -1,5 +1,5 @@
 {
   "projectPath": "D:\\goma_workspace\\vue-aws-demo",
-  "envName": "staging",
-  "defaultEditor": "intellij"
+  "defaultEditor": "intellij",
+  "envName": "dev"
 }

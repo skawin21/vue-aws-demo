@@ -1,5 +1,5 @@
 {
-  "providers": {
+  "dev": {
     "awscloudformation": {
       "AuthRoleName": "amplify-vueawsdemo-dev-113153-authRole",
       "UnauthRoleArn": "arn:aws:iam::975970341755:role/amplify-vueawsdemo-dev-113153-unauthRole",
