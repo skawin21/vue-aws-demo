@@ -21,7 +21,11 @@ const awsmobile = {
     "aws_cognito_password_protection_settings": {
         "passwordPolicyMinLength": 8,
         "passwordPolicyCharacters": []
-    }
+    },
+    "aws_appsync_graphqlEndpoint": "https://zdzb3rbzingvfbqjjy4g2zqgsm.appsync-api.ap-northeast-2.amazonaws.com/graphql",
+    "aws_appsync_region": "ap-northeast-2",
+    "aws_appsync_authenticationType": "API_KEY",
+    "aws_appsync_apiKey": "da2-u25e3g4qcferpo332pzts3phv4"
 };
 
 

@@ -38,7 +38,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-vueawsdemo-dev-113153-deployment/amplify-cfn-templates/auth/vueawsdemo486e49a3-cloudformation-template.yml",
         "logicalId": "authvueawsdemo486e49a3"
       },
-      "lastPushTimeStamp": "2021-09-03T05:12:54.604Z",
+      "lastPushTimeStamp": "2021-09-07T00:39:11.468Z",
       "output": {
         "UserPoolId": "ap-northeast-2_Fceq6stLR",
         "AppClientIDWeb": "4ajjdp6h4aihdinao3js7lmeio",
@@ -49,6 +49,33 @@
         "UserPoolName": "vueawsdemo486e49a3_userpool_486e49a3"
       },
       "lastPushDirHash": "GQMye3gI/8br5sjs7JQo7rrWA+I="
+    }
+  },
+  "api": {
+    "notesapp": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 30,
+              "description": "demo"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "eq7lxdwrcfbdzkrqrdvlpalkxe",
+        "GraphQLAPIEndpointOutput": "https://zdzb3rbzingvfbqjjy4g2zqgsm.appsync-api.ap-northeast-2.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-u25e3g4qcferpo332pzts3phv4"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-vueawsdemo-dev-113153-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apinotesapp"
+      },
+      "lastPushTimeStamp": "2021-09-07T00:39:14.640Z",
+      "lastPushDirHash": "AVNnPoOrNlhx8wsiH4c1ZhZcAlU="
     }
   }
 }
