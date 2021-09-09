@@ -13,7 +13,7 @@
 
 <!--        <amplify-s3-image-picker />-->
         <input type="file" @change="uploadFile($event, index)" />
-        <img :src="item.image" alt="upload_image" />
+        <img :src="item.image" alt="upload_image" style="width:250px;" />
 <!--        <amplify-s3-image :img-key="item.image" />-->
         <button @click="deleteTodo(item.id)">Delete</button>
       </div>
